@@ -1,0 +1,15 @@
+#inlineDisplay p{
+    display: inline;  
+}
+
+.scale:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#scale {
+    
+}
+
+#userInput {
+    
+}
