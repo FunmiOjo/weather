@@ -11,20 +11,27 @@
 	</head>
 	
 	<body>
-	    <p id="cityDisplay"></p>
-		    <div id="inlineDisplay">
-		    <p id="display">--</p>
-		    <p id="fahr" class="scale">F&deg;</p>
-		    <span id=divider>|</span>
-		    <p id="cel" class="scale">C&deg;</p>
-		    </div>
-		<p id="conditionDisplay"></p>
-		<div id="userInput">
-		    <input id="location" value="Enter city">
-		    <button id="submitLocation">Submit</button>
+		<div id="page-wrap">
+			<h1 id="title">Weather app</h1>
+			<p id="cityDisplay"></p>
+			
+			<div id="inlineDisplay">
+				<p id="display"></p>
+				<p id="fahr" class="scale">F&deg;</p>
+				<span class="scale" id=divider>|</span>
+				<p id="cel" class="scale">C&deg;</p>
+			</div>
+			<img id="imageDisplay" alt="" src="">
+			<div id="userInput">
+				<input id="location" value="Enter a city">
+				<input type="submit" value="submit" id="submitLocation"></input>
+			</div>
+			<p id="footer">The weather information used in this website is from
+			<a href="http://openweathermap.org">OpenWeatherMap</a>. The icons
+			are from <a href="http://sm-artists.com/?page_id=925">sm-artists</a>.</p>
 		</div>
 	</body>
 	
+	
 	<script src="weather.js"></script>
-	<!--<script src="scrap2.js"></script>-->
 </html>

@@ -1,15 +1,59 @@
+body {
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 75px;
+}
+#page-wrap {
+	width: 800px;
+	margin: 100px auto;
+}
+
+#cityDisplay {
+	font-size: 70px;
+	margin: 30px 0px;
+}
+
+#inlineDisplay {
+	font-size: 70px; 
+}
+
 #inlineDisplay p{
     display: inline;  
+}
+
+.scale {
+   visibility: hidden; 
 }
 
 .scale:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-#scale {
-    
+
+#cel {
+	color: gray;
+}
+
+#fahr {
+	color: black;
+}
+
+img {
+	margin: 16px auto;
 }
 
 #userInput {
-    
+	margin-top: 16px;
 }
+
+#location {
+	font-size: 20px;
+}
+
+#submitLocation {
+	font-size: 20px;
+}
+
+
